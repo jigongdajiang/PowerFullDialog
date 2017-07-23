@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#378273"
+        android:padding="10dp"
+        android:text="我是第一个文字"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#378273"
+        android:padding="10dp"
+        android:text="我是第二个文字"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#378273"
+        android:padding="10dp"
+        android:text="我是第三个文字"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:text="好漂亮的按钮"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
