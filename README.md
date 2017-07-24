@@ -5,6 +5,8 @@
 将Dialog的View布局话,对View上的操作如设置文字，设置点击事件等采用了ViewHolder的思想,
 最后提供了一个生成常用Dialog的工厂类。
 ## 2.效果展示
+![示例图片1](https://github.com/jigongdajiang/PowerFullDialog/raw/master/app/show/show_01.gif "示例图片1")
+![示例图片2](https://github.com/jigongdajiang/PowerFullDialog/raw/master/app/show/show_02.gif "示例图片2")
 ## 3.实例代码
 ```Java
     /**
