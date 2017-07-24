@@ -4,6 +4,18 @@
 基于Bulder模式构建，
 将Dialog的View布局话,对View上的操作如设置文字，设置点击事件等采用了ViewHolder的思想,
 最后提供了一个生成常用Dialog的工厂类。
+#### 特别注意
+为了能在横竖屏切换时保留状态,为了简单起见在这个框架中会强制在BaseApplication中声明一个Params参数，否则该Demo运行将会崩溃。<br>
+示例代码如下:
+```Java
+public class MyApplication extends Application {
+    public static BaseDialog.Builder.Params params;
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
+}
+```
 ## 2.效果展示
 ![示例图片1](https://github.com/jigongdajiang/PowerFullDialog/raw/master/app/show/show_01.gif "示例图片1")
 ![示例图片2](https://github.com/jigongdajiang/PowerFullDialog/raw/master/app/show/show_02.gif "示例图片2")
